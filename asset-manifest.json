@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Burger/static/css/main.1c5e4f65.chunk.css",
+    "main.js": "/Burger/static/js/main.81ea821b.chunk.js",
+    "main.js.map": "/Burger/static/js/main.81ea821b.chunk.js.map",
+    "runtime~main.js": "/Burger/static/js/runtime~main.8dfb21fd.js",
+    "runtime~main.js.map": "/Burger/static/js/runtime~main.8dfb21fd.js.map",
+    "static/js/2.1c6fe0ea.chunk.js": "/Burger/static/js/2.1c6fe0ea.chunk.js",
+    "static/js/2.1c6fe0ea.chunk.js.map": "/Burger/static/js/2.1c6fe0ea.chunk.js.map",
+    "index.html": "/Burger/index.html",
+    "precache-manifest.f67e1dd511bb920cad51ba8fcb1c354f.js": "/Burger/precache-manifest.f67e1dd511bb920cad51ba8fcb1c354f.js",
+    "service-worker.js": "/Burger/service-worker.js",
+    "static/css/main.1c5e4f65.chunk.css.map": "/Burger/static/css/main.1c5e4f65.chunk.css.map",
+    "static/media/burger-logo.png": "/Burger/static/media/burger-logo.b8503d26.png"
+  }
+}
