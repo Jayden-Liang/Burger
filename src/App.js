@@ -32,7 +32,7 @@ class App extends Component {
   render(){
 
     return (
-      <BrowserRouter>
+      <BrowserRouter >
       <div className="App">
        <Layout toggler={this.SidebarToggler}></Layout>
        <Modal hide={this.hideSidebar} showOrder={this.state.showSidebar}>
@@ -41,10 +41,10 @@ class App extends Component {
           />
        </Modal>
          <Switch>
-            <Route path='/checkout'  component={Checkout} />
-            <Route path='/' exact  component={BurgerBuilder} />
-            <Route path='/orders' exact  component={Orders} />
-            <Route path='/auth' exact component={Auth} />
+            <Route path={process.env.PUBLIC_URL + '/checkout'}  component={Checkout} />
+            <Route path={process.env.PUBLIC_URL + '/'} exact  component={BurgerBuilder} />
+            <Route path={process.env.PUBLIC_URL + '/orders'} exact  component={Orders} />
+            <Route path={process.env.PUBLIC_URL + '/auth' } exact component={Auth} />
 
 
 
